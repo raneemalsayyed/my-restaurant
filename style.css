@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 25px;
+    padding-top: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+.header ul {
+    display: flex;
+    gap: 40px;
+    padding-right: 20px;
+}
+
+
+.header ul li {
+    list-style: none;
+}
+.header ul li a {
+    text-decoration: none;
+}
+.header h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 255px;
+}
+
+.header div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.header .nav {
+    padding: 85px;
+}
+
+main .welcome {
+    padding-top: 5px;
+   font-family: sans-serif;
+   padding-bottom: 30px;
+   text-align: center;
+   padding-left: 200px;
+   padding-right: 200px;
+   font-size: x-large;
+
+}
+.welcome h3 {
+    font-weight: bold;
+    width: 400px;
+    padding-left: 10px;
+}
+
+main .specialties {
+    font-family: sans-serif;
+    width: 800px;
+    padding-bottom: 15px;
+    font-size: x-large;
+}
+main .events-menu {
+    display: flex;
+}
+main .menu {
+    padding-bottom: 10px;
+}
+ main .dishes {
+    display: flex;
+    justify-content: left;
+    gap: 60px;
+    width: 60%;
+ }
+main .dish-img {
+width: 690px;
+}
+main .menu-reservations {
+    width: 400px;
+    font-family: sans-serif;
+    height: 300px;
+    padding-top: 10px;
+    font-size: x-large;
+}
+main .reservations {
+    padding-top: 10px;
+}
+
+main .all-information {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+main .contact-us {
+    display: flex;
+}
+main .email {
+    padding-top: 25px;
+    padding-left: 7px;
+}
+main .contact {
+    padding-bottom: 10px;
+}
+main .tele {
+    padding-top: 21px;
+}
+main .num {
+    padding-left: 7px;
+}
+main .connect {
+    padding-bottom: 10px;
+}
+main .event {
+    font-family: sans-serif;
+    background-color: #F6E1C3;
+    height: 300px;
+    width: 700px;
+}
+main .booking {
+    padding-top: 10px;
+    padding-left: 40px;
+}
+main .event-p {
+    padding-top: 15px;
+    padding-right: 90px;
+    text-align: center;
+    padding-left: 80px;
+}
+main .event-headings {
+text-align: center;
+padding-right: 90px;
+padding-left: 80px;
+padding-top: 25px;
+}
+
+main .restaurant-button input {
+background-color: #A84448;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+border: none;
+border-radius: 5px;
+}
+main .confirm {
+    background-color: #A84448;
+color: white;
+padding: 7px 11px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 12px;
+border: none;
+border-radius: 5px;
+width: 216px;
+}
+main .select {
+    padding-right: 20px;
+    padding-left: 45px;
+}
